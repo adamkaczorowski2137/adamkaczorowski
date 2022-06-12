@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+
+<html lang="pl">
+<head>
+    <meta charset="utf-8" />
+    <title>Ankieta</title>
+    <link rel="stylesheet" type="text/css" href="style4.css" />
+</head>
+<body>
+    <form method="post" action="mailto:adam.kaczorowski.06@gmail.com">
+
+        <br>
+        <label for="imie">Imię:</label>
+        <input type="text" name="imie">
+        <br /><br />
+        <label for="email">Adres e-mail:</label>
+        <input type="email" name="email">
+        <br><br />
+        <label for="wiek">Wiek:</label>
+        <input type="number" name="wiek" min="10" max="100">
+        <br><br>
+        Kraj:
+        <select name="kraj">
+            <option value="PL">Polska</option>
+            <option value="DE">Niemcy</option>
+            <option value="CZ">Czechy</option>
+            <option value="USA">Stany Zjednoczone</option>
+            <option value="CAN">Kanada</option>
+        </select>
+        <br><br />
+        Czy spodobała Ci się ta strona?
+        <br><br />
+        <input type="radio" name="podob" value=tak>
+        <label for="tak">Tak</label>
+        <br><br>
+        <input type="radio" name="podob" value=nie>
+        <label for="nie">Nie</label>
+        <br><br><br>
+        <label for="uwagi">Zadaj pytanie.</label>
+        <br><br>
+        <textarea name="uwagi" cols="50" rows="9"></textarea>
+        <br><br><br>
+        <input type="submit" value="Wyślij" class="przyc">
+        <input type="reset" value="Wyczyść" class="przyc">
+        <br><br><br><br>
+    </form>
+    
+</body>
+</html>

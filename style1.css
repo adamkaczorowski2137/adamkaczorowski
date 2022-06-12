@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    background-color: #E13DFF;
+   
+}
+.menu_logo{
+    width: 20%;
+    height: 20vh;
+    background-color: yellow;
+    float:left;
+    font-size:2vw;
+    text-align:center;
+}
+.menu_gora {
+    width: 80%;
+    height: 20vh;
+    background-color: #FF9062;
+    float: right;
+    font-size: 1.8vw;
+}
+.menu_lewo {
+    width: 20%;
+    height: 76vh;
+    background-color: #B36544;
+    font-size: 1.8vw;
+    float:left;
+    
+}
+#logo{
+    float: none;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.links_gora {
+	float: none;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+    font-weight: 500;
+}
+.links_gora li{
+	list-style: none;
+}
+.links_gora a {
+	display: block;
+	padding: 1em;
+	
+	color: #fff;
+	text-decoration: none;
+}
+.links_lewo {
+    float: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    vertical-align: middle;
+}
+
+    .links_lewo li {
+        list-style: none;
+    }
+
+    .links_lewo a {
+        display: block;
+        padding: 1em;
+        color: #fff;
+        text-decoration: none;
+    }
+#main {
+    float: right;
+    width: 80%;
+    height: 76vh;
+}
+a {
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease 0s;
+}
+.stopka{
+    text-align:center;
+}
